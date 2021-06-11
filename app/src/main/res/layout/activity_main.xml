@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/purple_700"
+        android:text="SENSORS AND VALUES">
+        </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:text="Accelerometer">
+
+        </TextView>
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+           >
+
+        </TextView>
+
+
+        <ToggleButton
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4B0082"
+            android:textColor="@color/white"
+            >
+
+        </ToggleButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text="X: ">
+
+        </TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/accX">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text="Y: ">
+
+        </TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/accY">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text="Z: ">
+
+        </TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/accZ">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/avgAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="AVERAGE"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text=" X: ">
+
+        </TextView>
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/avgaccX">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text="Y: ">
+
+        </TextView>
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/avgaccY">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text="Z: ">
+
+        </TextView>
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/avgaccZ">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:text="Linear Acceleration">
+
+        </TextView>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+         >
+
+        </TextView>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4B0082"
+            android:textColor="@color/white"
+            android:id="@+id/switch2">
+
+        </ToggleButton>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text="X: ">
+
+        </TextView>
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/laccX">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text="Y: ">
+
+        </TextView>
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/laccY">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text="Z: ">
+
+        </TextView>
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/laccZ">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:text="Temperature">
+
+        </TextView>
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/temp">
+
+        </TextView>
+        <TextView
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            >
+
+        </TextView>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4B0082"
+            android:textColor="@color/white"
+            android:id="@+id/switch3">
+
+        </ToggleButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AVERAGE"
+            android:textColor="@color/white"
+            android:id="@+id/avgTemp"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  ">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/avgTempValue">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:text="Light">
+
+        </TextView>
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/light">
+
+        </TextView>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4B0082"
+            android:textColor="@color/white"
+            android:id="@+id/switch4">
+
+        </ToggleButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:text="GPS ">
+
+        </TextView>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/switch5"
+            android:background="#4B0082">
+        </ToggleButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text=" Latitude : ">
+
+        </TextView>
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lat">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text="Longitude : ">
+
+        </TextView>
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/longi">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:text="Proximity">
+
+        </TextView>
+        <TextView
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/proximity">
+
+        </TextView>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4B0082"
+            android:textColor="@color/white"
+            android:id="@+id/switch6">
+
+        </ToggleButton>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/mo"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/mox"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/moy"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/moz"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
